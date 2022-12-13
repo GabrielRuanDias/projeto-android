@@ -26,6 +26,7 @@
 }
 body {
     background-color: #83e1ad;
+    position: relative;
     
 }
 p {
@@ -57,6 +58,8 @@ header > p {
 nav {
     background-color: #063d1e;
     padding: 10px;
+    position: sticky;
+    top: -1px;
 
 }
 nav > a{
